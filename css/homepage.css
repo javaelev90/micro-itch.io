@@ -1,0 +1,52 @@
+.home-page-content {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    /* background-color: rgb(226, 226, 226); */
+    padding: 0 10px 0 10px;
+}
+
+.game-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.game-box {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    text-decoration: none !important;
+    color: black;
+    margin-right: 10px;
+    transition: transform 100ms linear;
+
+}
+
+.game-box:hover {
+    filter: blur(0);
+    transform: scale(1.01);
+}
+
+.game-box img {
+    height: 175px;
+    width: 225px;
+}
+
+.project-name {
+    font-weight: bolder;
+    font-size: 16pt;
+    margin-bottom: 3px;
+}
+
+.project-catchphrase {
+    font-style: italic;
+    color: rgb(134, 132, 134);
+    margin-bottom: 2px;
+}
+
+.project-owner {
+    margin-bottom: 2px;
+    color: rgb(134, 132, 134);
+}

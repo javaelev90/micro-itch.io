@@ -1,0 +1,12 @@
+.center-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: grey;
+    background-color: whitesmoke;
+    padding: 0 30px 0 30px;
+}
